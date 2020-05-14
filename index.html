@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="game-wrapper">
+            <div class="user-area">
+                <div class="playerStyles player1">
+                    <h1 id="player1name">Player</h1>
+                    <p id="playerScore1">Player score</p>
+                    <div class="image-container">
+                        <img id="playerImg" src="img//untitled.png" alt="">
+                    </div>
+                    <div class="pick_path">
+                        <div class="relative">
+                            <div class="pick_tools">
+                                <div class="game-option">
+                                    <!-- <li><img id="imgPic" class="rotator" src="img/rock.png" alt=""></li>
+                                    <li><img id="imgPic" src="img/paper.png" alt=""></li>
+                                    <li><img id="imgPic" src="img/scissors.png" alt=""></li> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pick-button">
+                            <img id="selectType" src="img/feature8.png" alt="">
+                        </div>
+                        <div class="display-action">
+                            <p id="action">Action</p>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+
+
+
+
+            <div class="other-user">
+                <div class="playerStyles player1">
+                    <h1 id="player2name">Computer</h1>
+                    <p id="playerScore2">Player score</p>
+                    <div class="image-container">
+                        <img id="computerImg" src="img/untitled.png" alt="">
+                    </div>
+                </div>
+
+                <div class="play_container">
+                    <button id="playButton">Row</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="counter">
+            <div class="show-winner">
+                <h1 id="globalScore">You won</h1>
+                <h4 id="highScore">High score: 100</h4>
+                <button> <a href="">Refresh</a></button>
+            </div>
+        </div>
+
+        
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
